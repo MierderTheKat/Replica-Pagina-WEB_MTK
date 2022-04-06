@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Site TheKat</title>
+</head>
+
+<script src="js/jquery-3.6.0.js"></script>
+<script>
+    $(function() {
+        var NavColor = $(".header_bg_nav_notselected");
+        NavColor.on("mouseenter", function() {
+            $(this).addClass("header_bg_nav--NavColor");
+        });
+        NavColor.on("mouseleave", function() {
+            $(this).removeClass("header_bg_nav--NavColor");
+        });
+    });
+</script>
+
+<body class="body_bg">
+
+    <header class="header_bg">
+
+        <nav class="header_bg_nav">
+            <h1 class="header_bg_nav_title">Sitename </h1>
+            <h2 class="header_bg_nav_selected">Home</h2>
+            <h2 class="header_bg_nav_notselected">About</h2>
+            <h2 class="header_bg_nav_notselected">Service</h2>
+            <h2 class="header_bg_nav_notselected">Solutions</h2>
+            <h2 class="header_bg_nav_notselected">Contact</h2>
+        </nav>
+    </header>
+
+    <article class="art_top">
+        <div class="art_top_box">
+            <div class="art_top_box_text">
+                <p class="art_top_box_text_1">Atvero Dignisso</p>
+                <p class="art_top_box_text_2">NEQUE PROGIN CIPO</p>
+                <p class="art_top_box_text_3">Dolerem supricto delemntio</p>
+                <button>Gradia Suni</button>
+            </div>
+
+            <div class="art_top_box_img">
+                <img src="img/Mano.png" alt="mano">
+            </div>
+        </div>
+    </article>
+
+    <article class="art_bottom">
+        <div class="art_bottom_box">
+            <article class="art_bottom_box_top">
+                <div class="art_bottom_box_top_box">
+                    <p class="art_bottom_box_top_box_text_1">Civamus eget mauris</p>
+                    <img class="art_bottom_box_top_box_img" src="img/product_1.png" alt="product_1">
+                    <p class="art_bottom_box_top_box_text_2">Lorem ipsum is simple dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.</p>
+                    <button>More</button>
+                </div>
+
+                <div class="art_bottom_box_top_box">
+                    <p class="art_bottom_box_top_box_text_1">Quisquam est qui</p>
+                    <img class="art_bottom_box_top_box_img" src="img/product_2.png" alt="product_1">
+                    <p class="art_bottom_box_top_box_text_2">Sed quia consequunfur magni dolores oes qui ratione voluptatem sequi nesciunt. Neque porro quisquam est. qui dolorem ipsum quia</p>
+                    <button>More</button>
+                </div>
+
+                <div class="art_bottom_box_top_box">
+                    <p class="art_bottom_box_top_box_text_1">Consectetur adipisicing</p>
+                    <img class="art_bottom_box_top_box_img" src="img/product_3.png" alt="product_1">
+                    <p class="art_bottom_box_top_box_text_2">At vero eos et acusamus et rusto odo dignissimos decimus qui blanditis praesentium voluptatum deleniti atque corrupti quos dolores et quas</p>
+                    <button>More</button>
+                </div>
+            </article>
+
+            <article class="art_bottom_box_bottom">
+
+                <div class="art_bottom_box_bottom_box_left">
+                    <p class="art_bottom_box_bottom_box_left_title">Sed ut perspiciatis unde omnis iste natus !</p>
+                    <div class="art_bottom_box_bottom_box_left_bottom">
+                        <img class="art_bottom_box_bottom_box_left_bottom_img" src="img/product_4.png" alt="product_1">
+                        <div class="art_bottom_box_bottom_box_left_bottom_txt">
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_1">Lorem ipsum dolor sit amet</p>
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_2">consectetur adipisicing elit sed do eiusmod tempor indi- dunt ut labore et dolore magma aliqua</p>
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_3"></p>
+
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_1">Voluptatem accusantium</p>
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_2">doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis el quasi</p>
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_3"></p>
+
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_1">Elusmod tempor incididunt ut</p>
+                            <p class="art_bottom_box_bottom_box_left_bottom_txt_2">Duis aute irure dolor in reprehendent in voluptate velit esse cilium dolore eu figiat nulla pariatur</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="art_bottom_box_bottom_box_right">
+                    <p class="art_bottom_box_bottom_box_right_title">Cum quia dolor</p>
+                    <div class="art_bottom_box_bottom_box_right_bottom">
+                        <img class="art_bottom_box_bottom_box_right_bottom_img" src="img/Circulo.png" alt="circulo">
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_1">John Says</p>
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_2">qui blanditiis praesentium Proin consequat libero vel ipsum tinddunt quis accumsan nibh faucibus</p>
+                        <img class="art_bottom_box_bottom_box_right_bottom_img" src="img/Circulo.png" alt="circulo">
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_1">Amenda Says</p>
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_2">qui blanditiis praesentium Proin consequat libero vel ipsum tinddunt quis accumsan nibh faucibus</p>
+                        <img class="art_bottom_box_bottom_box_right_bottom_img" src="img/Circulo.png" alt="circulo">
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_1">Smith Says</p>
+                        <p class="art_bottom_box_bottom_box_right_bottom_txt_2">qui blanditiis praesentium Proin consequat libero vel ipsum tinddunt quis accumsan nibh faucibus</p>
+                    </div>
+                </div>
+
+            </article>
+        </div>
+
+    </article>
+
+
+    <footer class="foo">
+        <div class="foo_box_container">
+            <div class="foo_box">
+                <p class="foo_box_title">Nisi ut aliquid</p>
+                <p class="foo_box_txt">Send ut perspiciatis, unde omnis iste natus error sit voluptatem idantium, ipsa. quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <button>More</button>
+            </div>
+            <div class="foo_box">
+                <p class="foo_box_title">Obcaecati cupiditate</p>
+                <p class="foo_box_txt">Vestibulum at lacus quis ante tristique facli</p>
+                <p class="foo_box_txt">Morbi ac dolor sed risus sollicitudin elefe</p>
+                <p class="foo_box_txt">Nulam eget risus eu leo consectetur</p>
+                <p class="foo_box_txt">Nulam molestie turpis ut est viverra sit</p>
+            </div>
+            <div class="foo_box">
+                <p class="foo_box_title">Excepturi sint</p>
+                <div class="foo_box_email">
+                    <textarea name="email" id="email_txt" cols="30" rows="1"></textarea>
+                    <button>Subscribe</button>
+                </div>
+                <p class="foo_box_txt_1">Copyright (c) websitename. All rights reserved.</p>
+
+                <a class="foo_box_txt_2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    < www.alltemplateneeds.com>
+                </a>
+
+                </p>
+                <p class="foo_box_txt_3">Images From: www.photorack.net</p>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
